@@ -1,0 +1,21 @@
+{
+   "name": "phcco/phpplib",
+   "type": "library",
+   "description": "Library for process management in PHP",
+   "keywords": ["php process management"],
+   "homepage": "http://github.com/phcco/phpplib",
+    "authors": [
+        {
+            "name": "Paulo H. Cazarotto",
+            "email": "paulo@phcco.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Phcco\\Phpplib\\" : "src/Phcco/Phpplib"
+        }
+    }
+}
