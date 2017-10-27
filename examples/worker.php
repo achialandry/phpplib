@@ -20,7 +20,7 @@ class Worker extends \Phcco\Phpplib\Process
     }
 }
 
-echo "Creating childs...\n";
+echo "Creating children...\n";
 $worker1 = new Worker();
 $worker2 = new Worker();
 
@@ -30,7 +30,7 @@ $worker2->fork();
 
 echo "Doing something...\n";
 sleep(2);
-echo "I'm ready, waiting my children...\n";
+echo "I'm ready, waiting on children...\n";
 
 $worker1->wait();
 echo "Child 1 OK\n";
